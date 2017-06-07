@@ -5,9 +5,6 @@ $(document).ready(function() {
 });
 	
 $(document).keydown(function(e) {	
-//	const Bio = ($(e.target).children()[0]);
-//	const Work = ($(e.target).children()[1]);
-		
 	if(e.keyCode === 39 || e.keyCode === 37) {				
 		navigate();
 	}
@@ -17,6 +14,7 @@ function navigate() {
 	console.log('hello');
 	$('.bio').toggleClass('hidden');		
 	$('.work-bg').toggleClass('hidden');
+	$('bar').toggleClass('hidden');
 }
 
 //From Main to Work

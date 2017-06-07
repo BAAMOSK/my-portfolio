@@ -19,7 +19,7 @@ header {
 }
 
 .work-bg {
-	height: 100%;
+	height: 80%;
 	background: #709DFF;
 }
 
@@ -41,7 +41,8 @@ bar p:hover {
 }
 
 footer {
-	position: absolute;
+	position: fixed;
+	right: 0;
 	bottom: 0;
 	height: 20%;
 	width: 100%;
