@@ -19,15 +19,14 @@ header {
 	background: #765BE8;
 }
 
-.work-bg {
-	height: 100%;
-	background: #709DFF;
-}
-
-#contact {
+.work {
 	position: fixed;
 	height: 100%;
 	width: 100%;
+	background: #709DFF;
+}
+
+.contact {
 	background: #E38FFF;
 }
 

@@ -1,5 +1,5 @@
 const greeting = 'Hi! My name is Tee. Like what you see? Contact me @ bunth667@gmail.com.';
-const counter = 2;
+const counter = 1;
 
 $(document).ready(function() {
   console.log(greeting);

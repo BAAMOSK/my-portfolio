@@ -20,14 +20,12 @@ header {
 }
 
 .work-bg {
-	height: 100%;
+	width: 100%;
 	background: #709DFF;
 }
 
-#contact {
-	position: fixed;
+.contact-bg {
 	height: 100%;
-	width: 100%;
 	background: #E38FFF;
 }
 

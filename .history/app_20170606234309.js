@@ -1,10 +1,11 @@
 const greeting = 'Hi! My name is Tee. Like what you see? Contact me @ bunth667@gmail.com.';
-const counter = 2;
 
 $(document).ready(function() {
   console.log(greeting);
   $('#root').html(state.templates[counter]);
 });
+
+const counter = 0;
 
 const main = `<header class="bio">
                 <div class="showcase">

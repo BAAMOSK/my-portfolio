@@ -1,10 +1,10 @@
 const greeting = 'Hi! My name is Tee. Like what you see? Contact me @ bunth667@gmail.com.';
-const counter = 2;
 
 $(document).ready(function() {
   console.log(greeting);
-  $('#root').html(state.templates[counter]);
+  $('#root').html(state.templates[1]);
 });
+
 
 const main = `<header class="bio">
                 <div class="showcase">
@@ -31,8 +31,8 @@ const main = `<header class="bio">
                 </div>
               </header>`;
 
-const portfolio = `<section class="work-bg" id="work">
-                    <div class="work">
+const portfolio = `<section class="work" id="work">
+                    <div class="work-bg">
                       <h2>Portfolio</h2>
                       <div class="primary-projects">
                         <section class="project">
@@ -163,19 +163,17 @@ const portfolio = `<section class="work-bg" id="work">
                   </div>
                 </section>`;
 
-const contact = `<section class="contact-bg" id="contact">
-                  <div class="contact">
-                    <h2>
-                      Contact me
-                    </h2>
-                    <nav class="contact-links">
-                      <ul>
-                        <li class="contact-link contact-link-email"><a href="mailto:jrandomhacker@example.com">Email</a>
-                        <li class="contact-link contact-link-linkedin"><a href="https://www.linkedin.com">LinkedIn</a>
-                        <li class="contact-link contact-link-github"><a href="https://www.github.com">GitHub</a>
-                      </ul>
-                    </nav>
-                  </div>
+const contact = `<section class="contact" id="contact">
+                  <h2>
+                    Contact me
+                  </h2>
+                  <nav class="contact-links">
+                    <ul>
+                      <li class="contact-link contact-link-email"><a href="mailto:jrandomhacker@example.com">Email</a>
+                      <li class="contact-link contact-link-linkedin"><a href="https://www.linkedin.com">LinkedIn</a>
+                      <li class="contact-link contact-link-github"><a href="https://www.github.com">GitHub</a>
+                    </ul>
+                  </nav>
                 </section>`;
 
 const state = {
