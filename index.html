@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tee Mak</title>
   <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">  
 </head>
 <body id='root'>
+	
  	<section class="bio"><!-- Start of the Main Page-->
 		<div class="two">
 			<div class="showcase">
@@ -18,13 +19,15 @@
 			</nav>
 			<img class="headshot" src="http://unsplash.it/150/150" alt="J. Random Hacker headshot">			
 				<p class="about" id="about">
-					Hi. My name is Tee. I'm a polymath. Ask me anything about casinos, trading, or programming. I love Vim, so navigate using the arrow keys.
+					Welcome. My name is Tee. I'm a polymath. Ask me anything about casinos, trading, or programming. I love Vim, so navigate using the arrow keys. Check out my portfolio by clicking the arrow.
 				</p>
 			
 			</div>
-				<a href="#" onClick="goToWork()"><span class="nav">&gt;&gt;&gt;</span></a>
+			
+<!--				<a href="#" onClick="goToWork()"><span class="nav">PORTFOLIO</span></a>-->
 			</div>
 	</section><!-- End of the Main Page-->
+      
               <section class="work-bg hidden" id="work"><!-- Start of the Portfolio Page-->                   
                     <div class="work">
                     <span class="top-nav">
@@ -170,6 +173,12 @@
 				</ul>
 			</nav>
                 </footer>
+      <a onclick="navigate()"><bar>
+				<p><strong>Portfolio</strong>
+				<i class="fa fa-arrow-circle-o-right"></i>
+				</p>
+			</bar>
+	</a>
 <!--
                 <section class="contact" id="contact">
                   <div class="contact">
@@ -187,6 +196,7 @@
                 </section>
 -->
 	
+<script src="https://use.fontawesome.com/555fbee067.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="app.js"></script>
 </body>

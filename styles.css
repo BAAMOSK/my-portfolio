@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 1.5em;
+	font-size: 2.5em;
 	font-family: 'Work Sans', sans-serif;
 	color: aliceblue;
 }
@@ -13,7 +13,7 @@ header {
 
 .bio {
 	position: fixed;
-	height: 100%;
+	height: 80%;
 	width: 100%;
 	background: #765BE8;
 }
@@ -23,9 +23,27 @@ header {
 	background: #709DFF;
 }
 
-#contact {
-	position: fixed;
+bar {	
+	position: absolute;
+	right: 0%;
 	height: 100%;
+	background: #709DFF;	
+	cursor: pointer;
+}
+bar p {
+	padding: 15px;
+	position: relative;
+	top: 40%;
+}
+
+bar p:hover {
+	color: #E38FFF;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	height: 20%;
 	width: 100%;
 	background: #E38FFF;
 }
@@ -64,18 +82,14 @@ header {
 }
 
 .contact-links ul li a:hover {
-	color: #E38FFF;	
-}
-
-.link {
-		
+	color: #709DFF;	
 }
 
 .nav {
 	position: absolute;
 	left: 75%;
 	top: 40%;
-	font-size: 5em;	
+	font-size: 2em;	
 	text-decoration: none; 
 }
 

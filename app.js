@@ -3,21 +3,21 @@ const greeting = 'Hi! My name is Tee. Like what you see? Contact me @ bunth667@g
 $(document).ready(function() {
   console.log(greeting);
 });
-
-
-$(document).keydown(function(e) {
 	
-	const Bio = ($(e.target).children()[0]);
-	const Work = ($(e.target).children()[1]);
-	const Contact = ($(e.target).children()[2]);	
-//	let counter = 0;
+$(document).keydown(function(e) {	
+//	const Bio = ($(e.target).children()[0]);
+//	const Work = ($(e.target).children()[1]);
+		
 	if(e.keyCode === 39 || e.keyCode === 37) {				
-//		const Current = ($(e.target).children()[counter]);
-//  	const Next = ($(e.target).children()[counter+1]);			
-		$(Bio).toggleClass('hidden');		
-		$(Work).toggleClass('hidden');
+		navigate();
 	}
 });
+	
+function navigate() {
+	console.log('hello');
+	$('.bio').toggleClass('hidden');		
+	$('.work-bg').toggleClass('hidden');
+}
 
 //From Main to Work
 function goToWork() {
