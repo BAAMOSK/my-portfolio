@@ -11,10 +11,10 @@ $(document).keydown(function(e) {
 });
 	
 function navigate() {
-	console.log('hello');
 	$('.bio').toggleClass('hidden');		
 	$('.work-bg').toggleClass('hidden');
-	$('bar').toggleClass('hidden');
+	$('.bar-right').toggleClass('hidden');
+	$('.bar-left').toggleClass('hidden');
 }
 
 //From Main to Work
