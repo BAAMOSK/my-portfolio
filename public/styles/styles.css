@@ -15,7 +15,7 @@ header {
 .bio {
 	position: fixed;
 	height: 90%;
-	width: 100%;
+	width: 95%;
 	background: #765BE8;
 	/*background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1))*/
 	background: linear-gradient(to right, rgba(126,123,255,.9), rgba(154,100,233,1));
@@ -30,6 +30,7 @@ header {
 
 .bar-right {
 	position: fixed;
+	width: 5%;
 	right: 0;
 	height: 100%;
 	background: #709DFF;
@@ -37,7 +38,7 @@ header {
 }
 .bar-right p {
 	display: flex;
-	padding: 15px;
+	/*padding: 1px;*/
 	position: relative;
 	top: 40%;
 }
@@ -81,7 +82,7 @@ footer {
 }
 
 .showcase {
-	width: 50%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
