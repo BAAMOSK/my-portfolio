@@ -43,7 +43,7 @@ header {
 }
 
 .bar-right:hover {
-	color: #E38FFF;
+	color: #000;
 }
 
 .bar-left {
@@ -106,7 +106,7 @@ footer {
 .main-nav ul li a, .contact-links ul li a {
 	margin: 0 16px;
 	text-decoration: none;
-	color: #000;
+	color: #eee;
 }
 
 .project-links ul li a {
@@ -120,7 +120,7 @@ footer {
 }
 
 .contact-link a:hover {
-	color: #709DFF;
+	color: #000;
 }
 
 
