@@ -4,18 +4,22 @@ body {
 	border: 0;
 	font-size: 1em;
 	font-family: 'Work Sans', sans-serif;
-	color: aliceblue;
+	color: #ddd;
 	position: relative;
 }
 
 header {
 	text-align: center;
 }
-
+.headshot {
+	width: 150px;
+	height: 150px;
+	padding: 40px;
+}
 .bio {
 	position: fixed;
 	height: 90%;
-	width: 95%;
+	width: 94%;
 	background: #765BE8;
 	/*background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1))*/
 	background: linear-gradient(to right, rgba(126,123,255,.9), rgba(154,100,233,1));
@@ -30,15 +34,15 @@ header {
 
 .bar-right {
 	position: fixed;
-	width: 5%;
+	min-width: 6%;
 	right: 0;
 	height: 100%;
 	background: #709DFF;
 	cursor: pointer;
 }
 .bar-right p {
-	display: flex;
-	/*padding: 1px;*/
+	/*display: flex;*/
+	padding: 10px;
 	position: relative;
 	top: 40%;
 }
@@ -69,15 +73,16 @@ header {
 
 footer {
 	position: fixed;
+	display: flex;
 	z-index: 1;
 	min-height: 50px;
 	min-width: 500px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	right: 0;
 	bottom: 0;
 	height: 10%;
-	width: 100%;
+	width: 108%;
 	background: #E38FFF;
 }
 
