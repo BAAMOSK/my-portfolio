@@ -67,7 +67,7 @@ body {
 
 .contact-wrapper {
   background: brown;
-  display: flex;
+    display: flex;
   /* flex: 1; */
   /* flex-direction: row; */
   /* align-items: flex-start; */
@@ -75,12 +75,13 @@ body {
 }
 
 .contact-list {
-   margin: 0;
-   padding: 0;
-  /* list-style: none; */
-    flex: 1;
+    /* margin: 0;
+     padding: 0; */
+    /* padding: 10px; */
+   list-style: none;
+     /* flex: 1; */
   /* flex-direction: row; */
-  border: 10px solid black;
+  /* border: 1px solid black; */
   /* align-items: center; */
     /* justify-content: space-around; */
 }
@@ -91,10 +92,10 @@ body {
      /* align-self: center; */
   /* border: 1px solid black; */
   /* width: 30px; */
-  /* flex-grow: 1; */
-  display: inline;
+   flex-grow: 1;
+  /* display: inline; */
   /* align-items: center; */
-  font-size: 3em;
+   font-size: 2em;
   /* margin-left: */
 }
 
