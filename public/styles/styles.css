@@ -85,6 +85,14 @@ body {
   font-size: 2em;
 }
 
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+a:hover {
+  color: black;
+}
 /* @media desktop
 .bio-wrapper {
   /* height: 100vh; */
