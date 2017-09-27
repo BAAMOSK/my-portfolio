@@ -108,7 +108,7 @@ ul li a:hover {
 
 .bio {
     height: 100vh;
-    background: url('bio1.jpeg');
+    background: url('../imgs/bio1.jpeg');
     background-size: 100%;
     text-align: center;
     box-shadow: 0 0 35px #222;
@@ -133,7 +133,7 @@ ul li a:hover {
 .skills {
     height: 100vh;
     color: white;
-    background: url('skills.png') no-repeat center center fixed;
+    background: url('../imgs/skills.png') no-repeat center center fixed;
     background-size: 100%;
     box-shadow: 0 0 35px #222;
     margin: 0 60px;
